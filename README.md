@@ -15,5 +15,6 @@ PS C:\Users\User> .\make-vm-workstations.ps1
 
 ## To Do
 - Change name of script
+- clean up code
 - Add what iso to mount so this script can make Windows Server, Windows 10, or Ubuntu VM's
-- Add how many servers
+- Add how many VMS to make
