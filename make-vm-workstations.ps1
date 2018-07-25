@@ -28,7 +28,7 @@ if(($ProcessorCount = Read-Host "Press enter to accept default value [default tw
 # #remove-vm $VMName -force
 # #Remove-Item c:\vm\$vmname -Recurse
 #endregion
-$VHDXPath = "C:\iso\gold\windows-10\" # location of gold image
+$VHDXPath = "C:\iso\gold\server-2016\" # location of gold image
 $VMVHDPath = "C:\VM\" #where to put the VM's
 
 Write-Verbose "Copying Master VHDX and Deploying new VM with name [$VMName]" -Verbose 
